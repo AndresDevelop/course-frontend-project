@@ -2,53 +2,35 @@
 <html>
 <head>
 	<title>PaginaWeb</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-<header>
-	<h2>FRONTEND DEVELOPER</h2>
-	<nav>
-		<ul>
-			<li>Portafolio</li>
-			<li>About</li>
-		</ul>
-	</nav>
-	<h1>FRONTEND DEVELOPER</h1>
-	<H3>Skill1-Skill2</H3>
-	<main>
-		<h2>PORTAFOLIO</h2><hr>
-		<img src="http://es.web.img2.acsta.net/c_300_300/pictures/17/07/21/12/20/444734.jpg" alt="imagen1" width="200" height="200"/>
-		<img src="http://es.web.img2.acsta.net/c_300_300/pictures/17/07/21/12/20/444734.jpg" alt="imagen2" width="200" height="200"/>
-		<img src="http://es.web.img2.acsta.net/c_300_300/pictures/17/07/21/12/20/444734.jpg" alt="imagen3" width="200" height="200"/>
-		<img src="http://es.web.img2.acsta.net/c_300_300/pictures/17/07/21/12/20/444734.jpg" alt="imagen4" width="200" height="200"/>
-		<img src="http://es.web.img2.acsta.net/c_300_300/pictures/17/07/21/12/20/444734.jpg" alt="imagen5" width="200" height="200"/>
-		<img src="http://es.web.img2.acsta.net/c_300_300/pictures/17/07/21/12/20/444734.jpg" alt="imagen6" width="200" height="200"/>
-		<article>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<button>CV</button>
-		</article>
-		<div>
-			<h2>Contact me</h2>
-			<h3>Name</h3>
-			<input type="text" name="" placeholder="name" required>
-			<h3>Email</h3>
-			<input type="text" name="" placeholder="Email" required>
-			<h3>Phone numer</h3>
-			<input type="text" name="" placeholder="Phone Number" required>
-			<h3>Message</h3>
-			<input type="text" name="" placeholder="Message" required><br>
-			<button>Send</button>
+	<section class="header fixed">
+		<div class="row">
+			<div class="col-6 col-md-11">
+				<ul class="Right-Menu">
+					<li><a href="#">About</a></li>
+					<li><a href="#">What i do best</a></li>
+					<li><a href="#">Portafolio</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
 		</div>
-	</main>
-	<footer>
-		<h4>Title</h4>
-		<h5>2215</h5>
-		<h4>Around Web</h4>
-	</footer>
-</header>
+	</section>
+	<section class="Video">
+			<video autoplay muted loop id="myVideo" >
+  				<source src="http://stegaru.com/resources/movie.mp4">
+			</video>
+			<div id="videoGradiente"></div>
+			<div class="row">
+				<div class="col-md-11 text-center Profile" >
+					<h2>Hello,I'm Yebrail andres pacheco</h2>
+					<p>A <strong>passionate front-end developer</strong>living in Medellin, Colombia</p>
+				</div>
+			</div>
+	</section>
 </body>
 </html>

@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.PreHeader{
+
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+
+.Right-Menu{
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+ ul li{
+    display: inline-block;
+}
+
+.Right-Menu li a{
+    display: block;
+    text-decoration: none !important;
+    color: white;
+    padding: 10px;
+   	font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#videoGradiente{
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	opacity: 0.80;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.95) 74%, rgba(0,0,0,0.95) 100%);
+}
+
+.header{
+
+	position: relative;
+	width: 100%;
+	z-index: 999;
+}
+
+.header.fixed{
+	position: fixed;
+	padding: 30px 0;
+}
+
+.row{
+
+	width: 80%;
+	margin: 0 auto;
+}
+
+.Video{
+	
+	position: relative;
+	min-height: 100vh;
+	overflow: hidden;
+}
+#myVideo {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.Profile{
+
+	position: relative;
+	z-index: 99;
+	margin-top: 20%;
+}
+
+.Profile h2{
+
+	color: #fff;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-bottom: 35px;
+    margin-top: 80px;
+    position: relative;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.Profile p{
+	color: white;
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+div#logo > img{
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.Centrar{
+	text-align: center;
+}
+
+article{
+	background-color: grey;
+}
+article > p{
+
+	width: 80%;
+	margin: 0px auto;
+}
+.Contact{
+	width: 80%;
+	margin: 0px auto;
+	text-align: center;
+	background-color: white;
+}
+
+
+
+input{
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+footer{
+	background-color: lightslategrey;
+}
+
+
+
+@media only screen  and (min-width: 768px){
+
+.Images:nth-child(2n + 1){
+    flex-basis: 33.33%;
+}
+.Images:nth-child(2n){
+    flex-basis: 33.33%;
+}}
+	
+}
